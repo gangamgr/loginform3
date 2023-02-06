@@ -1,0 +1,112 @@
+.top{
+     height: 100px;
+     width: 350px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     cursor: pointer;
+     box-shadow: 0px 0px 5px 1px white ;
+     background-color:  rgba(41, 193, 177, 0.343);
+     position: absolute;
+     transform: translateY(-150%);
+     transition: 4s;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./pictures/wallpaper.gif);
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+.main{
+    height: 500px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 1px white ;
+    background-color: rgba(41, 193, 177, 0.343);
+}
+h1{
+    text-decoration: underline;
+    color: white;
+}
+.first{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.first input{
+    height: 35px;
+    width: 250px;
+    border-radius: 15px;
+}
+.second{
+    height: 50px;
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.remember:hover{
+    transform: scale(1.1);
+}
+.remember{
+    font-size: 15px;
+}
+.forgot:hover{
+    transform: scale(1.1);
+}
+.forgot{
+    font-size: 15px;
+}
+.signin{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button{
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: skyblue;
+}
+.last{
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+.last:hover{
+    transform: scale(1.1);
+}
+#emailerror{
+    font-size: 16px;
+    color: rgb(43, 20, 220);
+}
+#passworderror{
+    font-size: 16px;
+    color: rgb(43, 20, 220);
+}
